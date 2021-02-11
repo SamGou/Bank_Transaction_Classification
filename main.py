@@ -15,8 +15,8 @@ nltk.download('punkt')
 nltk.download("stopwords")
 from nltk.corpus import stopwords
 
-filepath_features = "D:\\FreeAgent\\bank_transaction_features.csv" #Make sure to change to your own path if you want to test run
-filepath_labels = "D:\\FreeAgent\\bank_transaction_labels.csv"  #Make sure to change to your own path if you want to test run
+filepath_features = "bank_transaction_features.csv" #Make sure to change to your own path if you want to test run
+filepath_labels = "bank_transaction_labels.csv"  #Make sure to change to your own path if you want to test run
 
 features = open(filepath_features,"r")
 labels = open(filepath_labels,"r")
